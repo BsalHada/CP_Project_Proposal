@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MSGCP.EntityMSGCP2" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAQACAAIAAAIAAAAQAEAAAAAAARAAAAIEAAQA=</HashCode>
+      <FileName>DBModel.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.Examination" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAACAAABA=</HashCode>
+      <FileName>Examination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.Grade" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAIAAAAA=</HashCode>
+      <FileName>Grade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.Remark" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAQAAAAAAAAQAAAIAAAA=</HashCode>
+      <FileName>Remark.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.Result" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>yAABAAkEQACQAIAAAAAAkiKAAAAAAAAIBUQAACFAABA=</HashCode>
+      <FileName>Result.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.ResultTotal" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAgoAQAAAAAAAAABECQAAAAAAAAIAQQAASAAAAA=</HashCode>
+      <FileName>ResultTotal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.School" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAEAAAAgAIIgBAAEAAIAAAAgAAACAAAAAAA=</HashCode>
+      <FileName>School.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.Section" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAABAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Section.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.Student" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAARgACAAAIAAgAAAAhAQAAAIAAAAgQQAAAAAAAAA=</HashCode>
+      <FileName>Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.Subject" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAABAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.SubjectMarks" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAEAAAAISAAAAACAAAAAAAAAQAAAA=</HashCode>
+      <FileName>SubjectMarks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.User" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAgAAAAE=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.EntityMSGCPDataSet3" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwiAAAJQBAAAQAAAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.EntityMSGCPDataSet4" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwiAAAJQBAAAQAAAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.EntityMSGCPDataSet5" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAQABAgiQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.EntityMSGCPDataSet6" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAQABAgiQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.EntityStudent" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQwIAAAJABAAAQAAAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.Marksobtained" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAQABAgiQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.Program" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.ResultDataSet" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAQABAgiQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.ResultMSGCPDataSet" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAQABAgiQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.ResultMSGCPDataSet7" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAQABAgiQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.Resultss" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAQABAgiQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.ResultTotal_Chart" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAwAAAAJABAAAQAAAAggCQBgABAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.Students" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQwIAAAJABAAAQAAAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.EntityMSGCPDataSet3TableAdapters.SubjectMarksTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.EntityMSGCPDataSet3TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQACACAAAABABAEBAAAAcAAgAAACgAAAAAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.EntityMSGCPDataSet4TableAdapters.SubjectMarksTableAdapter" Collapsed="true">
+    <Position X="4" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.EntityMSGCPDataSet4TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQACACAAAABABAEBAAAAcAAgAAACgAAAAAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.EntityMSGCPDataSet5TableAdapters.ResultTableAdapter" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.EntityMSGCPDataSet5TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABARAEBAAAAMAAgAAACgAAAAAQABAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.EntityMSGCPDataSet6TableAdapters.ResultTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.EntityMSGCPDataSet6TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABARAEBAAAAMAAgAAACgAAAAAQABAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.EntityStudentTableAdapters.StudentTableAdapter" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.EntityStudentTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABAJAEBAAAAMAAgABACgAAAAAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.MarksobtainedTableAdapters.ResultTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.MarksobtainedTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABARAEBAAAAMAAgAAACgAAAAAQABAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAjAQAAAAAAAAAICIHEIgAAQAAAACAEAAABAAFAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.Properties.Settings" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.ResultDataSetTableAdapters.ResultTableAdapter" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.ResultDataSetTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABARAEBAAAAMAAgAAACgAAAAAQABAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.ResultMSGCPDataSetTableAdapters.ResultTableAdapter" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.ResultMSGCPDataSetTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABARAEBAAAAMAAgAAACgAAAAAQABAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.ResultMSGCPDataSet7TableAdapters.ResultTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.ResultMSGCPDataSet7TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABARAEBAAAAMAAgAAACgAAAAAQABAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.ResultssTableAdapters.ResultTableAdapter" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.ResultssTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABARAEBAAAAMAAgAAACgAAAAAQABAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.ResultTotal_ChartTableAdapters.ResultTotalTableAdapter" Collapsed="true">
+    <Position X="11" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.ResultTotal_ChartTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABABAEBAAAAMAAgAAACgAAAAAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SqlServerTypes.Utilities" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAQAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>SqlServerTypes\Loader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.StudentsTableAdapters.StudentTableAdapter" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.StudentsTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABAJAEBAAAAMAAgABACgAAAAAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.Accountsettings" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEQIACEQABAAAACAIAACAAAIAAAABAAAAQAAAAA=</HashCode>
+      <FileName>View\Accountsettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.addRemark" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAABAAAACAAAACAAkYAAACEAQAAQAAAEA=</HashCode>
+      <FileName>View\addRemark.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.Attendance" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACBAABAQAACAAAACAAkwAAACIAAAAYEAAAA=</HashCode>
+      <FileName>View\Attendance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.Chart" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hABACCAAACAQABAEAATAAAgCACAAAAAAAAAAIcGAAAA=</HashCode>
+      <FileName>View\Chart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.Class" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iFAAAAAgACIQABAEAACAAAACAAEAAAQCAQAAAaAAABA=</HashCode>
+      <FileName>View\Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.Dashboard" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>E8QAZxQIAHAD6JIAQFCAZBsiAYAAJABASRgYD4pCACA=</HashCode>
+      <FileName>View\Dashboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.Exam" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gFABAAAAACIQABAAAACAAACCAAEAgAQCACAAASAAABA=</HashCode>
+      <FileName>View\Exam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.fmentry" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gFAgBAQAACIUABJAABCIAAQCAAEAAgAKAIAAAKAAggA=</HashCode>
+      <FileName>View\fmentry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.FMPMSubjects" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBAABQQAACAQQBBAAAiAIAACAoAAAAAAAAAAAYAQAAA=</HashCode>
+      <FileName>View\FMPMSubjects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.FPMForm" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gFAghAQAACIUABJAABCIAIACAAEAAgACAIAAAKAAgAA=</HashCode>
+      <FileName>View\FPMForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.FullPassEntry" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gFAghAQAACIUABJAABCIAIACAAEAAgACAIAAAKAAggA=</HashCode>
+      <FileName>View\FullPassEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.Login" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAggAGAQAQAAAQCAIABCAIAAAAAAAAQAAIBgAQA=</HashCode>
+      <FileName>View\Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.MarkSheet" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAACQQABAAAACAABACAACAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>View\MarkSheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.MarksObtainedEntry" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>hFBQBAoAADJUABKACVCAxgoCAiEGKLUCBqCQAcHHgwA=</HashCode>
+      <FileName>View\MarksObtainedEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.Registration" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAABkgACAQARAAAACAIABCAAAKQAAAAKAAAABgAAI=</HashCode>
+      <FileName>View\Registration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.SchoolDetails" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/0AEAABAACAQABAAQACIAEASAACQAAAAgAACAwBAQBg=</HashCode>
+      <FileName>View\SchoolDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.Sections" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iFCAABAEBCYQABAAAACAAAAiAAEgAAQCAQAAAQEAAAA=</HashCode>
+      <FileName>View\Sections.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.StudentDetail" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>f0AMABCgACAQABASAgCYAAgCAACIICAAECAiAUCAQRA=</HashCode>
+      <FileName>View\StudentDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.Subjects" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gFAAhAACACKQABBAAACIABACAAEAAAQCAAAAAQAEAAA=</HashCode>
+      <FileName>View\Subjects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.UserManual" Collapsed="true">
+    <Position X="14.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAAAAAAACAoAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\UserManual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.ViewResult" Collapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hGBQBBAAACAUCBaAEFCAwigCwCAEIJsIBoBQAUHDAQA=</HashCode>
+      <FileName>View\ViewResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGCP.View.Export" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BDAQAAggAiESAhAAAADAAAgCAAAGACEAAABAgUCCgQE=</HashCode>
+      <FileName>View\ViewStudent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

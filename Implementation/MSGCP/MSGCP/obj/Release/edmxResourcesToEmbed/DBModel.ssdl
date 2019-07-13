@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EntityModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Examination">
+    <Key>
+      <PropertyRef Name="examination_Id" />
+    </Key>
+    <Property Name="examination_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="examination_Type" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Grade">
+    <Key>
+      <PropertyRef Name="grade_Id" />
+    </Key>
+    <Property Name="grade_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="grade" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Remark">
+    <Key>
+      <PropertyRef Name="remark_Id" />
+    </Key>
+    <Property Name="remark_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="remark" Type="varchar" MaxLength="50" />
+    <Property Name="result_Id" Type="int" />
+  </EntityType>
+  <EntityType Name="Result">
+    <Key>
+      <PropertyRef Name="result_Id" />
+    </Key>
+    <Property Name="result_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="student_Name" Type="varchar" MaxLength="50" />
+    <Property Name="grade" Type="varchar" MaxLength="50" />
+    <Property Name="roll_No" Type="int" />
+    <Property Name="section" Type="varchar" MaxLength="50" />
+    <Property Name="subject" Type="varchar" MaxLength="50" />
+    <Property Name="examination_Type" Type="varchar" MaxLength="50" />
+    <Property Name="attendance" Type="varchar" MaxLength="50" />
+    <Property Name="remark" Type="varchar" MaxLength="50" />
+    <Property Name="marks_Obtained" Type="int" />
+    <Property Name="examination_Id" Type="int" />
+    <Property Name="grade_Id" Type="int" />
+    <Property Name="section_Id" Type="int" />
+    <Property Name="student_Id" Type="int" />
+    <Property Name="remark_id" Type="int" />
+    <Property Name="full_Marks" Type="int" />
+    <Property Name="pass_Marks" Type="int" />
+    <Property Name="SubjectMarks_Id" Type="int" />
+    <Property Name="total" Type="int" />
+    <Property Name="percentage" Type="float" />
+    <Property Name="division" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ResultTotal">
+    <Key>
+      <PropertyRef Name="ResultTotal_Id" />
+    </Key>
+    <Property Name="ResultTotal_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="obtained_Total" Type="int" />
+    <Property Name="examination_Type" Type="varchar" MaxLength="50" />
+    <Property Name="full_total" Type="int" />
+    <Property Name="pass_Total" Type="int" />
+    <Property Name="rank" Type="int" />
+    <Property Name="percentage" Type="float" />
+    <Property Name="division" Type="varchar" MaxLength="50" />
+    <Property Name="student_name" Type="varchar" MaxLength="50" />
+    <Property Name="grade" Type="varchar" MaxLength="50" />
+    <Property Name="section" Type="varchar" MaxLength="50" />
+    <Property Name="roll_No" Type="varchar" MaxLength="50" />
+    <Property Name="result_Id" Type="int" />
+  </EntityType>
+  <EntityType Name="School">
+    <Key>
+      <PropertyRef Name="school_Id" />
+    </Key>
+    <Property Name="school_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="school_Name" Type="nvarchar(max)" />
+    <Property Name="address" Type="nvarchar(max)" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="phone" Type="varchar" MaxLength="10" />
+    <Property Name="established_Date" Type="varchar" MaxLength="50" />
+    <Property Name="principal_Name" Type="varchar" MaxLength="50" />
+    <Property Name="website" Type="nvarchar(max)" />
+    <Property Name="db_Id" Type="int" />
+    <Property Name="logo" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="Section">
+    <Key>
+      <PropertyRef Name="section_Id" />
+    </Key>
+    <Property Name="section_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="section" Type="varchar" MaxLength="50" />
+    <Property Name="grade_Id" Type="int" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="student_Id" />
+    </Key>
+    <Property Name="student_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="full_Name" Type="varchar" MaxLength="50" />
+    <Property Name="address" Type="varchar" MaxLength="50" />
+    <Property Name="DOB" Type="date" />
+    <Property Name="gender" Type="varchar" MaxLength="10" />
+    <Property Name="phone" Type="varchar" MaxLength="50" />
+    <Property Name="parents_Name" Type="varchar" MaxLength="50" />
+    <Property Name="email" Type="varchar(max)" />
+    <Property Name="parent_Phone" Type="varchar" MaxLength="50" />
+    <Property Name="grade" Type="varchar" MaxLength="50" />
+    <Property Name="section" Type="varchar" MaxLength="50" />
+    <Property Name="roll_No" Type="int" />
+    <Property Name="school_Id" Type="int" />
+    <Property Name="atd_Id" Type="int" />
+  </EntityType>
+  <EntityType Name="Subject">
+    <Key>
+      <PropertyRef Name="subject_Id" />
+    </Key>
+    <Property Name="subject_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="subject" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="SubjectMarks">
+    <Key>
+      <PropertyRef Name="subjectmarks_Id" />
+    </Key>
+    <Property Name="subjectmarks_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="subject" Type="varchar" MaxLength="50" />
+    <Property Name="fullmarks" Type="int" />
+    <Property Name="passmarks" Type="int" />
+    <Property Name="subject_Id" Type="int" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="user_Id" />
+    </Key>
+    <Property Name="user_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="user_Type" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Result_Result">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <End Role="Result" Type="Self.Result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="student_Id" />
+      </Principal>
+      <Dependent Role="Result">
+        <PropertyRef Name="student_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Result_Results">
+    <End Role="Examination" Type="Self.Examination" Multiplicity="0..1" />
+    <End Role="Result" Type="Self.Result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Examination">
+        <PropertyRef Name="examination_Id" />
+      </Principal>
+      <Dependent Role="Result">
+        <PropertyRef Name="examination_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Result_Resultss">
+    <End Role="Section" Type="Self.Section" Multiplicity="0..1" />
+    <End Role="Result" Type="Self.Result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Section">
+        <PropertyRef Name="section_Id" />
+      </Principal>
+      <Dependent Role="Result">
+        <PropertyRef Name="section_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Result_Rslt">
+    <End Role="Remark" Type="Self.Remark" Multiplicity="0..1" />
+    <End Role="Result" Type="Self.Result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Remark">
+        <PropertyRef Name="remark_Id" />
+      </Principal>
+      <Dependent Role="Result">
+        <PropertyRef Name="remark_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Result_Rslts">
+    <End Role="SubjectMarks" Type="Self.SubjectMarks" Multiplicity="0..1" />
+    <End Role="Result" Type="Self.Result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SubjectMarks">
+        <PropertyRef Name="subjectmarks_Id" />
+      </Principal>
+      <Dependent Role="Result">
+        <PropertyRef Name="SubjectMarks_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Result_Rsult">
+    <End Role="Grade" Type="Self.Grade" Multiplicity="0..1" />
+    <End Role="Result" Type="Self.Result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Grade">
+        <PropertyRef Name="grade_Id" />
+      </Principal>
+      <Dependent Role="Result">
+        <PropertyRef Name="grade_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Student_Student">
+    <End Role="School" Type="Self.School" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="School">
+        <PropertyRef Name="school_Id" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="school_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SubjectMarks_SubjectMarks">
+    <End Role="Subject" Type="Self.Subject" Multiplicity="0..1" />
+    <End Role="SubjectMarks" Type="Self.SubjectMarks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="subject_Id" />
+      </Principal>
+      <Dependent Role="SubjectMarks">
+        <PropertyRef Name="subject_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Table_ResultTotal">
+    <End Role="Result" Type="Self.Result" Multiplicity="0..1" />
+    <End Role="ResultTotal" Type="Self.ResultTotal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Result">
+        <PropertyRef Name="result_Id" />
+      </Principal>
+      <Dependent Role="ResultTotal">
+        <PropertyRef Name="result_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Table_Section">
+    <End Role="Grade" Type="Self.Grade" Multiplicity="0..1" />
+    <End Role="Section" Type="Self.Section" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Grade">
+        <PropertyRef Name="grade_Id" />
+      </Principal>
+      <Dependent Role="Section">
+        <PropertyRef Name="grade_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EntityModelStoreContainer">
+    <EntitySet Name="Examination" EntityType="Self.Examination" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Grade" EntityType="Self.Grade" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Remark" EntityType="Self.Remark" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Result" EntityType="Self.Result" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ResultTotal" EntityType="Self.ResultTotal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="School" EntityType="Self.School" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Section" EntityType="Self.Section" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Subject" EntityType="Self.Subject" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SubjectMarks" EntityType="Self.SubjectMarks" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Result_Result" Association="Self.FK_Result_Result">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="Result" EntitySet="Result" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Result_Results" Association="Self.FK_Result_Results">
+      <End Role="Examination" EntitySet="Examination" />
+      <End Role="Result" EntitySet="Result" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Result_Resultss" Association="Self.FK_Result_Resultss">
+      <End Role="Section" EntitySet="Section" />
+      <End Role="Result" EntitySet="Result" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Result_Rslt" Association="Self.FK_Result_Rslt">
+      <End Role="Remark" EntitySet="Remark" />
+      <End Role="Result" EntitySet="Result" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Result_Rslts" Association="Self.FK_Result_Rslts">
+      <End Role="SubjectMarks" EntitySet="SubjectMarks" />
+      <End Role="Result" EntitySet="Result" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Result_Rsult" Association="Self.FK_Result_Rsult">
+      <End Role="Grade" EntitySet="Grade" />
+      <End Role="Result" EntitySet="Result" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Student_Student" Association="Self.FK_Student_Student">
+      <End Role="School" EntitySet="School" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SubjectMarks_SubjectMarks" Association="Self.FK_SubjectMarks_SubjectMarks">
+      <End Role="Subject" EntitySet="Subject" />
+      <End Role="SubjectMarks" EntitySet="SubjectMarks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Table_ResultTotal" Association="Self.FK_Table_ResultTotal">
+      <End Role="Result" EntitySet="Result" />
+      <End Role="ResultTotal" EntitySet="ResultTotal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Table_Section" Association="Self.FK_Table_Section">
+      <End Role="Grade" EntitySet="Grade" />
+      <End Role="Section" EntitySet="Section" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

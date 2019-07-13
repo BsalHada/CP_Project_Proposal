@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ResultTotal_Chart" targetNamespace="http://tempuri.org/ResultTotal_Chart.xsd" xmlns:mstns="http://tempuri.org/ResultTotal_Chart.xsd" xmlns="http://tempuri.org/ResultTotal_Chart.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="EntityMSGCPConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="EntityMSGCPConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MSGCP.Properties.Settings.GlobalReference.Default.EntityMSGCPConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ResultTotalTableAdapter" GeneratorDataComponentClassName="ResultTotalTableAdapter" Name="ResultTotal" UserDataComponentName="ResultTotalTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="EntityMSGCPConnectionString (Settings)" DbObjectName="EntityMSGCP.dbo.ResultTotal" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT obtained_Total, examination_Type FROM dbo.ResultTotal</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="obtained_Total" DataSetColumn="obtained_Total" />
+              <Mapping SourceColumn="examination_Type" DataSetColumn="examination_Type" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ResultTotal_Chart" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ResultTotal_Chart" msprop:Generator_UserDSName="ResultTotal_Chart">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ResultTotal" msprop:Generator_TableClassName="ResultTotalDataTable" msprop:Generator_TableVarName="tableResultTotal" msprop:Generator_TablePropName="ResultTotal" msprop:Generator_RowDeletingName="ResultTotalRowDeleting" msprop:Generator_RowChangingName="ResultTotalRowChanging" msprop:Generator_RowEvHandlerName="ResultTotalRowChangeEventHandler" msprop:Generator_RowDeletedName="ResultTotalRowDeleted" msprop:Generator_UserTableName="ResultTotal" msprop:Generator_RowChangedName="ResultTotalRowChanged" msprop:Generator_RowEvArgName="ResultTotalRowChangeEvent" msprop:Generator_RowClassName="ResultTotalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="obtained_Total" msprop:Generator_ColumnVarNameInTable="columnobtained_Total" msprop:Generator_ColumnPropNameInRow="obtained_Total" msprop:Generator_ColumnPropNameInTable="obtained_TotalColumn" msprop:Generator_UserColumnName="obtained_Total" type="xs:int" minOccurs="0" />
+              <xs:element name="examination_Type" msprop:Generator_ColumnVarNameInTable="columnexamination_Type" msprop:Generator_ColumnPropNameInRow="examination_Type" msprop:Generator_ColumnPropNameInTable="examination_TypeColumn" msprop:Generator_UserColumnName="examination_Type" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c74b68e65ff84948b0fce632c5a3cba1" Name="Diagram1" ZoomLevel="83">
+        <EntityTypeShape EntityType="EntityMSGCP.Attendance" Width="1.5" PointX="3.125" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityMSGCP.Examination" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityMSGCP.Grade" Width="1.5" PointX="7.625" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityMSGCP.Remark" Width="1.5" PointX="7.625" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityMSGCP.Result" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityMSGCP.ResultTotal" Width="1.5" PointX="7.625" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityMSGCP.School" Width="1.5" PointX="1" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityMSGCP.Section" Width="1.5" PointX="7.625" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityMSGCP.Student" Width="1.5" PointX="1" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityMSGCP.Subject" Width="1.5" PointX="3.125" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityMSGCP.SubjectMarks" Width="1.5" PointX="3.125" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityMSGCP.User" Width="1.5" PointX="1" PointY="4.125" IsExpanded="true" />
+        <AssociationConnector Association="EntityMSGCP.FK_Attendance" ManuallyRouted="false" />
+        <AssociationConnector Association="EntityMSGCP.FK_Attendances" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="EntityMSGCP.FK_Result_Results" ManuallyRouted="false" />
+        <AssociationConnector Association="EntityMSGCP.FK_Result_Rsult" ManuallyRouted="false" />
+        <AssociationConnector Association="EntityMSGCP.FK_Table_Section" ManuallyRouted="false" />
+        <AssociationConnector Association="EntityMSGCP.FK_Result_Rslt" ManuallyRouted="false" />
+        <AssociationConnector Association="EntityMSGCP.FK_Result_Result" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="EntityMSGCP.FK_Result_Resultss" ManuallyRouted="false" />
+        <AssociationConnector Association="EntityMSGCP.FK_Result_Rslts" ManuallyRouted="false" />
+        <AssociationConnector Association="EntityMSGCP.FK_Table_ResultTotal" ManuallyRouted="false" />
+        <AssociationConnector Association="EntityMSGCP.FK_Student_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="EntityMSGCP.FK_SubjectMarks_SubjectMarks" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

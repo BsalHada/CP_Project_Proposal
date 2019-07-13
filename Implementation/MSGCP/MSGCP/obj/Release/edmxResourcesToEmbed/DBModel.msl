@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EntityModelStoreContainer" CdmEntityContainer="EntityMSGCP2">
+    <EntitySetMapping Name="Examination">
+      <EntityTypeMapping TypeName="EntityModel.Examination">
+        <MappingFragment StoreEntitySet="Examination">
+          <ScalarProperty Name="examination_Id" ColumnName="examination_Id" />
+          <ScalarProperty Name="examination_Type" ColumnName="examination_Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Grade">
+      <EntityTypeMapping TypeName="EntityModel.Grade">
+        <MappingFragment StoreEntitySet="Grade">
+          <ScalarProperty Name="grade_Id" ColumnName="grade_Id" />
+          <ScalarProperty Name="grade1" ColumnName="grade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Remark">
+      <EntityTypeMapping TypeName="EntityModel.Remark">
+        <MappingFragment StoreEntitySet="Remark">
+          <ScalarProperty Name="remark_Id" ColumnName="remark_Id" />
+          <ScalarProperty Name="remark1" ColumnName="remark" />
+          <ScalarProperty Name="result_Id" ColumnName="result_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Result">
+      <EntityTypeMapping TypeName="EntityModel.Result">
+        <MappingFragment StoreEntitySet="Result">
+          <ScalarProperty Name="result_Id" ColumnName="result_Id" />
+          <ScalarProperty Name="student_Name" ColumnName="student_Name" />
+          <ScalarProperty Name="grade" ColumnName="grade" />
+          <ScalarProperty Name="roll_No" ColumnName="roll_No" />
+          <ScalarProperty Name="section" ColumnName="section" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="examination_Type" ColumnName="examination_Type" />
+          <ScalarProperty Name="attendance" ColumnName="attendance" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="marks_Obtained" ColumnName="marks_Obtained" />
+          <ScalarProperty Name="examination_Id" ColumnName="examination_Id" />
+          <ScalarProperty Name="grade_Id" ColumnName="grade_Id" />
+          <ScalarProperty Name="section_Id" ColumnName="section_Id" />
+          <ScalarProperty Name="student_Id" ColumnName="student_Id" />
+          <ScalarProperty Name="remark_id" ColumnName="remark_id" />
+          <ScalarProperty Name="full_Marks" ColumnName="full_Marks" />
+          <ScalarProperty Name="pass_Marks" ColumnName="pass_Marks" />
+          <ScalarProperty Name="SubjectMarks_Id" ColumnName="SubjectMarks_Id" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="percentage" ColumnName="percentage" />
+          <ScalarProperty Name="division" ColumnName="division" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ResultTotal">
+      <EntityTypeMapping TypeName="EntityModel.ResultTotal">
+        <MappingFragment StoreEntitySet="ResultTotal">
+          <ScalarProperty Name="ResultTotal_Id" ColumnName="ResultTotal_Id" />
+          <ScalarProperty Name="obtained_Total" ColumnName="obtained_Total" />
+          <ScalarProperty Name="examination_Type" ColumnName="examination_Type" />
+          <ScalarProperty Name="full_total" ColumnName="full_total" />
+          <ScalarProperty Name="pass_Total" ColumnName="pass_Total" />
+          <ScalarProperty Name="rank" ColumnName="rank" />
+          <ScalarProperty Name="percentage" ColumnName="percentage" />
+          <ScalarProperty Name="division" ColumnName="division" />
+          <ScalarProperty Name="student_name" ColumnName="student_name" />
+          <ScalarProperty Name="grade" ColumnName="grade" />
+          <ScalarProperty Name="section" ColumnName="section" />
+          <ScalarProperty Name="roll_No" ColumnName="roll_No" />
+          <ScalarProperty Name="result_Id" ColumnName="result_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="School">
+      <EntityTypeMapping TypeName="EntityModel.School">
+        <MappingFragment StoreEntitySet="School">
+          <ScalarProperty Name="school_Id" ColumnName="school_Id" />
+          <ScalarProperty Name="school_Name" ColumnName="school_Name" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="established_Date" ColumnName="established_Date" />
+          <ScalarProperty Name="principal_Name" ColumnName="principal_Name" />
+          <ScalarProperty Name="website" ColumnName="website" />
+          <ScalarProperty Name="db_Id" ColumnName="db_Id" />
+          <ScalarProperty Name="logo" ColumnName="logo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Section">
+      <EntityTypeMapping TypeName="EntityModel.Section">
+        <MappingFragment StoreEntitySet="Section">
+          <ScalarProperty Name="section_Id" ColumnName="section_Id" />
+          <ScalarProperty Name="section1" ColumnName="section" />
+          <ScalarProperty Name="grade_Id" ColumnName="grade_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Student">
+      <EntityTypeMapping TypeName="EntityModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="student_Id" ColumnName="student_Id" />
+          <ScalarProperty Name="full_Name" ColumnName="full_Name" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="parents_Name" ColumnName="parents_Name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="parent_Phone" ColumnName="parent_Phone" />
+          <ScalarProperty Name="grade" ColumnName="grade" />
+          <ScalarProperty Name="section" ColumnName="section" />
+          <ScalarProperty Name="roll_No" ColumnName="roll_No" />
+          <ScalarProperty Name="school_Id" ColumnName="school_Id" />
+          <ScalarProperty Name="atd_Id" ColumnName="atd_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subject">
+      <EntityTypeMapping TypeName="EntityModel.Subject">
+        <MappingFragment StoreEntitySet="Subject">
+          <ScalarProperty Name="subject_Id" ColumnName="subject_Id" />
+          <ScalarProperty Name="subject1" ColumnName="subject" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubjectMarks">
+      <EntityTypeMapping TypeName="EntityModel.SubjectMarks">
+        <MappingFragment StoreEntitySet="SubjectMarks">
+          <ScalarProperty Name="subjectmarks_Id" ColumnName="subjectmarks_Id" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="fullmarks" ColumnName="fullmarks" />
+          <ScalarProperty Name="passmarks" ColumnName="passmarks" />
+          <ScalarProperty Name="subject_Id" ColumnName="subject_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="EntityModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="user_Id" ColumnName="user_Id" />
+          <ScalarProperty Name="user_Name" ColumnName="user_Name" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="user_Type" ColumnName="user_Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
